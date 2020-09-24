@@ -40,7 +40,7 @@
             this.UseModsButton.Name = "UseModsButton";
             this.UseModsButton.Size = new System.Drawing.Size(911, 443);
             this.UseModsButton.TabIndex = 1;
-            this.UseModsButton.Text = "Click To Use Mods";
+            this.UseModsButton.Text = "Click To Use CDLC";
             this.UseModsButton.UseVisualStyleBackColor = true;
             this.UseModsButton.Click += new System.EventHandler(this.UseCDLCButton_Click);
             // 
@@ -64,7 +64,7 @@
             this.Controls.Add(this.UseModsButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GUI";
-            this.Text = "Rocksmith Mods Installer";
+            this.Text = "Rocksmith CDLC Installer";
             this.ResumeLayout(false);
             this.PerformLayout();
 

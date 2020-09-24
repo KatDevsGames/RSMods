@@ -109,13 +109,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Resources\RSModsGUI\ddc\ddc_default.cfg" />
-    <None Include="Resources\RSModsGUI\ddc\ddc_keep_all_levels.cfg" />
-    <None Include="Resources\RSModsGUI\ddc\ddc_merge_all_levels.cfg" />
-    <None Include="Resources\RSModsGUI\RSMods.exe.config" />
-    <None Include="Resources\RSModsGUI\tools\OpenCmd.bat" />
-    <None Include="Resources\RSModsGUI\tools\packed_codebooks.bin" />
-    <None Include="Resources\RSModsGUI\tools\packed_codebooks_aoTuV_603.bin" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -126,64 +119,8 @@
   <ItemGroup>
     <None Include="Assets\LogoX256.ico" />
     <Content Include="LogoX256.ico" />
-    <Content Include="Resources\RSModsGUI\Microsoft.Extensions.Logging.Abstractions.dll" />
-    <Content Include="Resources\RSModsGUI\Microsoft.Extensions.Logging.Abstractions.xml" />
-    <Content Include="Resources\RSModsGUI\Microsoft.WindowsAPICodePack.Shell.xml" />
-    <Content Include="Resources\RSModsGUI\Microsoft.WindowsAPICodePack.xml" />
-    <Content Include="Resources\RSModsGUI\Microsoft.WindowsAPICodePack.dll" />
-    <Content Include="Resources\RSModsGUI\Microsoft.WindowsAPICodePack.Shell.dll" />
-    <Content Include="Resources\RSModsGUI\7z.dll" />
-    <Content Include="Resources\RSModsGUI\ddc\ddc.exe" />
-    <Content Include="Resources\RSModsGUI\ddc\ddc_chords_protector.xml" />
-    <Content Include="Resources\RSModsGUI\ddc\ddc_chords_remover.xml" />
-    <Content Include="Resources\RSModsGUI\ddc\ddc_dd_remover.xml" />
-    <Content Include="Resources\RSModsGUI\ddc\ddc_default.xml" />
-    <Content Include="Resources\RSModsGUI\ddc\license.txt" />
-    <Content Include="Resources\RSModsGUI\ddc\readme.txt" />
-    <Content Include="Resources\RSModsGUI\ICSharpCode.SharpZipLib.dll" />
-    <Content Include="Resources\RSModsGUI\MiscUtil.dll" />
-    <Content Include="Resources\RSModsGUI\NDesk.Options.dll" />
-    <Content Include="Resources\RSModsGUI\Newtonsoft.Json.dll" />
-    <Content Include="Resources\RSModsGUI\NLog.dll" />
-    <Content Include="Resources\RSModsGUI\Ookii.Dialogs.dll" />
-    <Content Include="Resources\RSModsGUI\PSTaskDialog.dll" />
-    <Content Include="Resources\RSModsGUI\RocksmithToolkitLib.dll" />
-    <Content Include="Resources\RSModsGUI\RocksmithToTabLib.dll" />
-    <Content Include="Resources\RSModsGUI\RSMods.exe" />
-    <Content Include="Resources\RSModsGUI\RSMods.pdb" />
-    <Content Include="Resources\RSModsGUI\SevenZipSharp.dll" />
-    <Content Include="Resources\RSModsGUI\SharpConfig.dll" />
-    <Content Include="Resources\RSModsGUI\tools\7za.exe" />
-    <Content Include="Resources\RSModsGUI\tools\core.jar" />
-    <Content Include="Resources\RSModsGUI\tools\CreateToolkitShortcut.exe" />
-    <Content Include="Resources\RSModsGUI\tools\nvdxt.exe" />
-    <Content Include="Resources\RSModsGUI\tools\oggCut.exe" />
-    <Content Include="Resources\RSModsGUI\tools\oggdec.exe" />
-    <Content Include="Resources\RSModsGUI\tools\oggenc.exe" />
-    <Content Include="Resources\RSModsGUI\tools\readme.txt" />
-    <Content Include="Resources\RSModsGUI\tools\revorb.exe" />
-    <Content Include="Resources\RSModsGUI\tools\topng.exe" />
-    <Content Include="Resources\RSModsGUI\tools\ww2ogg.exe" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Api.Core.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Api.Core.Enums.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Api.Core.Interfaces.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Api.Core.Models.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Api.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Api.Helix.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Api.Helix.Models.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Api.V5.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Api.V5.Models.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Client.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Client.Enums.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Client.Models.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.Communication.dll" />
-    <Content Include="Resources\RSModsGUI\TwitchLib.PubSub.dll" />
-    <Content Include="Resources\RSModsGUI\X360.dll" />
-    <Content Include="Resources\RSModsGUI\zlib.net.dll" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\RSModsGUI\CustomMods\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>

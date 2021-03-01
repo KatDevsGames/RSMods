@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>LogoX256.ico</ApplicationIcon>
+    <StartupObject>RSMods.Program</StartupObject>
+    <Version>1.2.3.0</Version>
+    <AssemblyName>RSMods_NetCore</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;IDE0034;IDE0063;IDE1006;IDE0029;IDE0017;IDE0079;IDE0060;IDE0059;IDE0066;IDE0018;</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Resources\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="5.0.0" />
+    <PackageReference Include="TwitchLib" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MiscUtil">
+      <HintPath>Lib\MiscUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="NDesk.Options">
+      <HintPath>Lib\NDesk.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>Lib\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>Lib\Ookii.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Pfim">
+      <HintPath>Lib\Pfim.dll</HintPath>
+    </Reference>
+    <Reference Include="PSTaskDialog">
+      <HintPath>Lib\PSTaskDialog.dll</HintPath>
+    </Reference>
+    <Reference Include="Rocksmith2014PsarcLib">
+      <HintPath>Lib\Rocksmith2014PsarcLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZipSharp">
+      <HintPath>Lib\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpConfig">
+      <HintPath>Lib\SharpConfig.dll</HintPath>
+    </Reference>
+    <Reference Include="X360">
+      <HintPath>Lib\X360.dll</HintPath>
+    </Reference>
+    <Reference Include="zlib.net">
+      <HintPath>Lib\zlib.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
